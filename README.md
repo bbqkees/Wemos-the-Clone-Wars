@@ -24,6 +24,9 @@ With the list below I want to make an overview of those different boards.<br>
 Board type | Vendor and ESP | Flash | LDO | Purchased | Remarks | Image
 --- | --- | --- | --- | --- | --- | ---
 |Wemos D1 Mini V3.1.0<br>**Original**|Lolin/Wemos<br>ID 0x<br>chip: ESP8266EX|Winbond<br>W25Q32FVSS<br>4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: S2MD|Q2 2019<br>[AliExpress: Lolin offical store](https://lolin.aliexpress.com/store/1331105)|This is the best original Wemos D1 Mini|
+|Wemos D1 Mini V3.0.0<br>**Original**|Lolin/Wemos<br>ID 0x<br>chip: ESP8266EX|Winbond<br>W25Q32FVSS<br>4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: S2MD|||
+|Wemos D1 Mini V2.2.0<br>**Original**|Lolin/Wemos<br>ID 0x<br>chip: ESP8266EX|4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: ||ESP shield marking: ESP-12S. Vendor marking: AI|
+|Wemos D1 Mini V2.3.0<br>**Original**|Lolin/Wemos<br>ID 0x<br>chip: ESP8266EX|4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking:||ESP shield marking: ESP-12S. Vendor marking: AI|
 |Wemos D1 Mini V2<br>**clone**|<br>ID 0x<br>chip: ESP8266EX|<br>T25S32<br>4MB (32mbit)<br>ID 0x|<br><br>500mA<br>marking: |Q2 2019<br>AliExpress|ESP shield marking: ESP8266MOD. No vendor marking.|
 |Wemos D1 Mini V2<br>**clone**|<br>ID 0x<br>chip: ESP8266EX|XMC<br>QH32BHIG<br>4MB (32mbit)<br>ID 0x|<br><br>500mA<br>marking: |Q3 2019<br>AliExpress|ESP shield marking: ESP8266MOD. No vendor marking.|
 |Wemos D1 Mini V2<br>**clone**|<br>ID 0x<br>chip: ESP8266EX|<br><br>4MB (32mbit)<br>ID 0x|<br><br>500mA<br>marking: |Q3 2019<br>AliExpress||
