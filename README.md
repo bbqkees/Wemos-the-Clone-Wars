@@ -1,2 +1,6 @@
-# Wemos-the-Clone-Wars
+# Wemos: the Clone Wars
 List of Wemos and other ESP8266 clone boards
+
+
+## Introduction
+While 
