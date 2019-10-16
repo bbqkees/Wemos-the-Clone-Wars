@@ -20,14 +20,24 @@ Also if you buy these from Ebay, AliExpress, DX etc you almost never get the exa
 With the list below I want to make an overview of those different boards.<br>
 <br>
 With `esptool.py flash_id` you can get all parameters of the flash. These are listed as below:<br>
-Flash example
-Row | Contents
+
+Row | Contents (example)
 --- | ---
 Manufacturer | Winbond
 Type | W25Q32FVSS
 Size | 4MB (32mbit)
 Manufact. ID | 0xE0
 Device ID | 4096
+<br>
+The 3.3V voltage regulator (LDO) on the board is identified as well (if possible).<br>
+
+Row | Contents (example)
+--- | ---
+Manufacturer | MicrOne
+Type | ME6211
+Rated output | 500mA
+Package marking | S2MD
+<br>
 
 
 Board type | Vendor and ESP | Flash | LDO | Purchased | Remarks | Image
@@ -36,6 +46,8 @@ Board type | Vendor and ESP | Flash | LDO | Purchased | Remarks | Image
 |Wemos D1 Mini V3.0.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|Winbond<br>W25Q32FVSS<br>4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: S2MD|||
 |Wemos D1 Mini V2.2.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: ||ESP shield marking: ESP-12S. Vendor marking: AI|
 |Wemos D1 Mini V2.3.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking:||ESP shield marking: ESP-12S. Vendor marking: AI|
+|Wemos D1 Mini Pro V1.0.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|Winbond<br>W25Q128FVSS<br>16MB (128mbit)<br>ID 0x|Richtek<br>RT9013<br>500mA<br>marking:||These have the option of an external antenna if you resolder a certain 0 Ohm resistor.|
+|Wemos D1 Mini Pro V1.1.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|Winbond<br>W25Q128FVSS<br>16MB (128mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: S2MD||These have the option of an external antenna if you resolder a certain 0 Ohm resistor.|
 |Wemos D1 Mini V2<br>**clone**|<br>chip: ESP8266EX|<br>T25S32<br>4MB (32mbit)<br>ID 0x|<br><br>500mA<br>marking: |Q2 2019<br>AliExpress|ESP shield marking: ESP8266MOD. No vendor marking.|
 |Wemos D1 Mini V2<br>**clone**|<br>chip: ESP8266EX|XMC<br>QH32BHIG<br>4MB (32mbit)<br>ID 0x|<br><br>500mA<br>marking: |Q3 2019<br>AliExpress|ESP shield marking: ESP8266MOD. No vendor marking.|
 |Wemos D1 Mini V2<br>**clone**|<br>chip: ESP8266EX|<br><br>4MB (32mbit)<br>ID 0x|<br><br>500mA<br>marking: |Q3 2019<br>AliExpress||
