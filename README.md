@@ -26,8 +26,8 @@ Row | Contents (example)
 Manufacturer | Winbond
 Type | W25Q32FVSS
 Size | 4MB (32mbit)
-Manufact. ID | 0xE0
-Device ID | 4096
+Manufact. ID | 0xEF
+Device ID | 4016
 <br>
 The 3.3V voltage regulator (LDO) on the board is identified as well (if possible).<br>
 
@@ -42,7 +42,7 @@ Package marking | S2MD
 
 Board type | Vendor and ESP | Flash | LDO | Purchased | Remarks | Image
 --- | --- | --- | --- | --- | --- | ---
-|Wemos D1 Mini V3.1.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|Winbond<br>W25Q32FVSS<br>4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: S2MD|Q2 2019<br>[AliExpress: Lolin offical store](https://lolin.aliexpress.com/store/1331105)|This is the best original Wemos D1 Mini|
+|Wemos D1 Mini V3.1.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|Winbond<br>W25Q32FVSS<br>4MB (32mbit)<br>ID 0xEF|MicrOne<br>ME6211<br>500mA<br>marking: S2RY|Q2 2019<br>[AliExpress: Lolin offical store](https://lolin.aliexpress.com/store/1331105)|This is the best original Wemos D1 Mini|
 |Wemos D1 Mini V3.0.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|Winbond<br>W25Q32FVSS<br>4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: S2MD|||
 |Wemos D1 Mini V2.2.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: ||ESP shield marking: ESP-12S. Vendor marking: AI|
 |Wemos D1 Mini V2.3.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking:||ESP shield marking: ESP-12S. Vendor marking: AI|
@@ -55,3 +55,6 @@ Board type | Vendor and ESP | Flash | LDO | Purchased | Remarks | Image
 |Wemos D1 Mini V2<br>**clone**|<br>chip: ESP8266EX|<br><br>4MB (32mbit)<br>ID 0xEF<br>4016|Torex<br>XC6204B<br>150mA<br>4B2X|Q3 2019<br>AliExpress 2|ESP shield marking: ESP8266MOD. No vendor marking.|
 |Wemos D1 Mini V2<br>**clone**|<br>chip: ESP8266EX|<br><br>4MB (32mbit)<br>ID 0x5E<br>4016|Torex<br>XC6204A<br>150mA<br>4A2D|Q3 2019<br>[AliExpress 3](https://www.aliexpress.com/store/4657022)|ESP shield marking: ESP8266MOD. No vendor marking.|
 |Wemos D1 Mini V1.0<br>**I think this is a fake copy**|Wemos<br>chip: ESP8266|<br><br>4MB (32mbit)<br>ID 0xEF|Torex<br>XC6204A<br>150mA<br>marking: 4A2D |Q3 2019<br>AliExpress 4|ESP shield marking: ESP-8266. Vendor marking: Wemos.|
+|Wemos D1 Mini Pro V1.0.0<br>**clone**|<br>chip: ESP8266EX|Winbond<br>25Q128JVS0<br>16MB (128mbit)<br>ID 0xEF<br>4018|MicrOne<br>ME6211<br>500mA<br>marking: S2RY|Q1 2019<br>AliExpress 5|These have the option of an external antenna if you resolder a certain 0 Ohm resistor.|
+|Wemos D1 Mini V2<br>**clone**|<br>chip: ESP8266EX|<br>FT25H32S<br>4MB (32mbit)<br>ID 0x0E<br>4016|Torex<br>XC6204A<br>150mA<br>4A2D|Q1 2019<br>AliExpress 6|ESP shield marking: ESP8266MOD. No vendor marking.|
+|Wemos D1 Mini V3<br>**clone**|<br>chip: ESP8266EX|Winbond<br>25Q32JVS10<br>4MB (32mbit)<br>ID 0xEF<br>4016|Torex<br>XC6204A<br>150mA<br>4A2D|Q1 2019<br>AliExpress 7|ESP shield marking: ESP8266MOD. No vendor marking.|
