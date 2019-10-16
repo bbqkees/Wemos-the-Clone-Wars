@@ -23,6 +23,10 @@ With the list below I want to make an overview of those different boards.<br>
 
 Board type | Vendor | ESP | Flash | LDO | Purchased | Remarks | Image
 --- | --- | --- | --- | --- | --- | --- | ---
-|Wemos D1 Mini V3.1.0<br>**Original**|Lolin/Wemos<br>ID 0x|ESP8266EX|Winbond<br>W25Q32FVSS<br>4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: S2MD|Q2 2019<br>[AliExpress: Lolin offical store](https://lolin.aliexpress.com/store/1331105)|This is the original Wemos D1 Mini|
+|Wemos D1 Mini V3.1.0<br>**Original**|Lolin/Wemos<br>ID 0x|ESP8266EX|Winbond<br>W25Q32FVSS<br>4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: S2MD|Q2 2019<br>[AliExpress: Lolin offical store](https://lolin.aliexpress.com/store/1331105)|This is the best original Wemos D1 Mini|
+|Wemos D1 Mini V2<br>**clone**|<br>ID 0x|ESP8266EX|<br>T25S32<br>4MB (32mbit)<br>ID 0x|<br><br>500mA<br>marking: |Q2 2019<br>AliExpress||
+|Wemos D1 Mini V2<br>**clone**|<br>ID 0x|ESP8266EX|XMC<br>QH32BHIG<br>4MB (32mbit)<br>ID 0x|<br><br>500mA<br>marking: |Q3 2019<br>AliExpress||
+|Wemos D1 Mini V2<br>**clone**|<br>ID 0x|ESP8266EX|<br><br>4MB (32mbit)<br>ID 0x|<br><br>500mA<br>marking: |Q3 2019<br>AliExpress||
+|Wemos D1 Mini V1.0<br>**I think this is a fake copy**|Wemos<br>ID 0x|ESP8266|<br><br>4MB (32mbit)<br>ID 0x|<br><br>500mA<br>marking: |Q3 2019<br>AliExpress||
 |D1 Mini V2<br>**Clone**|Do-It.AM<br>ID 0x|ESP8266EX|XMC<br>QH32BHIG<br>4MB (32mbit)<br>ID 0x|<br><br>150mA<br>marking: 4ABC|Q1 2019<br>AliExpress|Lots of these are BAD. If the device is unresponsive or slow, throw away or remove a specific cap. [See here](https://geekenargentina.wordpress.com/2019/10/08/esp8266-connectivity-troubleshooting/)|
 |NodeMCU V0.9<br>**Original**|AI-Thinker<br>ID 0x|ESP8266|<br><br>4MB (32mbit)<br>ID 0x|<br><br>?mA<br>marking: S2PC|Q4 2018<br>AliExpress||
