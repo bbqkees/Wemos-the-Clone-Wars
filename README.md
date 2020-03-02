@@ -23,7 +23,7 @@ etc.
 A Wemos normally gets its power via USB. This is a 5V input. The ESP8266 cannot handle 5V. It needs 3.3V.
 An on-board voltage regulator (also called a LDO or Low Drop Out regulator) converts this 5V into 3.3V.<br>
 Espressif, the manufacturer of the ESP8266, recommends a regulator that can supply 500mA of current. You can find this information the in the [ESP8266 hardware design guidelines, (footnote page 7)](https://www.espressif.com/sites/default/files/documentation/esp8266_hardware_design_guidelines_en.pdf).
-Knowing that the average current of an ESP8266 is about 70mA and the all-out stressed consumption is rated by Espressif at [170mA](https://bbs.espressif.com/viewtopic.php?t=133), this 500mA is a good margin. Real world measurements by others have indicated that although the average power consumption is just 70mA, at boot and on other instances power spikes occur. These spikes are very short but current can be as much as 400mA.<br>
+Knowing that the average current of an ESP8266 is about 70mA and the all-out stressed consumption is rated by Espressif at about [170mA](https://bbs.espressif.com/viewtopic.php?t=133), this 500mA is a good margin. Real world measurements by others have indicated that although the average power consumption is just 70mA, at boot and on other instances power spikes occur. These spikes are very short but current can be as much as 400mA.<br>
 The original Lolin/Wemos D1 Mini boards have a MicrOne ME611 regulator on board that can deliver 500mA. So more than enough for that average 70mA and even enough for those short spikes.<br>
 Usually if you are making a clone of the original, you do so in order to make some money. But there a only a few components on a Wemos, so little room for making it cheaper. The ESP chip is always the same, and passive components are already extremely cheap anyway. So the only major difference you can make is by using a different flash chip and a different LDO.<br>
 And that is exactly what you see with these clones.<br>
@@ -65,7 +65,7 @@ Package marking | S2MD
 Board type | Vendor and ESP | Flash | LDO | Purchased | Remarks | Image
 --- | --- | --- | --- | --- | --- | ---
 |Wemos D1 Mini V3.1.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|Winbond<br>W25Q32FVSS<br>4MB (32mbit)<br>ID 0xEF|MicrOne<br>ME6211<br>500mA<br>marking: S2RY|Q2 2019<br>[AliExpress: Lolin offical store](https://lolin.aliexpress.com/store/1331105)|This is the best original Wemos D1 Mini|
-|Wemos D1 Mini V3.1.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|Giga Device<br>GD25Q32C<br>4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: S2RK|Q1 2020<br>[AliExpress: Lolin offical store](https://lolin.aliexpress.com/store/1331105)|This is the best original Wemos D1 Mini|
+|Wemos D1 Mini V3.1.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|Giga Device<br>GD25Q32C<br>4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: S2RK|Q4 2019<br>[AliExpress: Lolin offical store](https://lolin.aliexpress.com/store/1331105)|This is the best original Wemos D1 Mini|
 |Wemos D1 Mini V3.0.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|Winbond<br>W25Q32FVSS<br>4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: S2MD|||
 |Wemos D1 Mini V2.2.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: ||ESP shield marking: ESP-12S. Vendor marking: AI|
 |Wemos D1 Mini V2.3.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking:||ESP shield marking: ESP-12S. Vendor marking: AI|
