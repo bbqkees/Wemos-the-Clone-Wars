@@ -3,7 +3,7 @@ List of Wemos and other ESP8266 clone boards
 
 
 ## Introduction
-For several of my projects I use a lot of ESP8266 boards like the Wemos D1 Mini.<br>
+For several of my hobby projects I use a lot of ESP8266 boards like the Wemos D1 Mini.<br>
 Aside from the 'original' Wemos D1 Mini from Wemos/Lolin, there are a lot of clones. These are copies of the original.<br>
 Usually these clones work just fine for most purposes, but at some point I started to run into specific issues with some of these boards. So I started to investigate why.<br>
 <br>
