@@ -65,6 +65,7 @@ Package marking | S2MD
 Board type | Vendor and ESP | Flash | LDO | Purchased | Remarks | Image
 --- | --- | --- | --- | --- | --- | ---
 |Wemos D1 Mini V3.1.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|Winbond<br>W25Q32FVSS<br>4MB (32mbit)<br>ID 0xEF|MicrOne<br>ME6211<br>500mA<br>marking: S2RY|Q2 2019<br>[AliExpress: Lolin offical store](https://lolin.aliexpress.com/store/1331105)|This is the best original Wemos D1 Mini|
+|Wemos D1 Mini V3.1.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|Giga Device<br>GD25Q32C<br>4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: S2RK|Q1 2020<br>[AliExpress: Lolin offical store](https://lolin.aliexpress.com/store/1331105)|This is the best original Wemos D1 Mini|
 |Wemos D1 Mini V3.0.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|Winbond<br>W25Q32FVSS<br>4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: S2MD|||
 |Wemos D1 Mini V2.2.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking: ||ESP shield marking: ESP-12S. Vendor marking: AI|
 |Wemos D1 Mini V2.3.0<br>**Original**|Lolin/Wemos<br>chip: ESP8266EX|4MB (32mbit)<br>ID 0x|MicrOne<br>ME6211<br>500mA<br>marking:||ESP shield marking: ESP-12S. Vendor marking: AI|
