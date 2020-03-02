@@ -29,7 +29,7 @@ Usually if you are making a clone of the original, you do so in order to make so
 And that is exactly what you see with these clones.<br>
 Almost all Wemos D1 Mini clones have a different (Torex) regulator rated at 150mA at 3.3V. If you draw more, the voltage will drop fast.<br>
 is this really a problem? This depends on the usage.<br>
-My own basic measurements for the Wemos chips with EMS-ESP firmware of [Proddy](https://github.com/proddy/EMS-ESP) show an average current of 70mA. So even with a LDO rated at 150mA this should be OK and indeed I have no problems at all because of this. To be on the safe side I do include an additional capacitor on the output for those short peaks you cannot even measure with a normal multimeter.<br>
+My own basic measurements for the Wemos chips with EMS-ESP firmware of [Proddy](https://github.com/proddy/EMS-ESP) show an average current of 70mA. So even with a LDO rated at 150mA this should be OK for non-stressed use cases and indeed I had no problems at all because of this. To be on the safe side I do include an additional capacitor on the output for those short peaks you cannot even measure with a normal multimeter.<br>
 The 150mA is already on the lower side for the ESP8266 itself, which means you cannot draw any significant additional current from the 3.3V line of the Wemos.<br> A few mA will be fine, but by adding f.i. a string of LED's you will have a bad time getting reliable results with these boards. In that case add your own 3.3V LDO on the 5V line of the Wemos.
 
 
@@ -37,7 +37,11 @@ The 150mA is already on the lower side for the ESP8266 itself, which means you c
 My experience is that even when clones look identical, often they are not. Even if they have the same marking on the RF shield, they might have a different flash chip or LDO. Even if you buy the same article number from the same supplier again and again you might not always get the same boards.<br>
 Also if you buy these from Ebay, AliExpress, DX etc you almost never get the exact same board as is in the pictures. Most of the stores show an image of a board with an AI-Thinker module but you never get these. It's usually a 'generic' clone without a vendor ID.
 <br>
-Again, not all clones are bad. Most are fine. I only had a few that had issues.<br>
+Again, not all clones are bad. Most are fine for your simple hobby projects. I only had a few that had issues.<br>
+But wherever possible, just use the original as its only 1 Euro more expensive.
+
+### List description
+
 With the list below I want to make an overview of those different boards.<br>
 <br>
 With `esptool.py flash_id` you can get some ID's of the flash. These are listed as below:<br>
